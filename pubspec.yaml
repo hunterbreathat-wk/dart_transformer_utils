@@ -18,12 +18,13 @@ dependencies:
   source_span: ^1.5.5
 
 dev_dependencies:
-  dart_dev: #^3.0.0
-    path: ../dart_dev
+  dart_dev:
+    git:
+      url: git@github.com:hunterbreathat-wk/dart_dev.git
+      ref: flutter-fix
   dart_style: ^1.3.3
   dependency_validator:
-    path: ../dependency_validator
-#    git:
-#      url: git@github.com:hunterbreathat-wk/dependency_validator.git
-#      ref: flutter-fix
+    git:
+      url: git@github.com:hunterbreathat-wk/dependency_validator.git
+      ref: flutter-fix
   test: ^1.9.3
